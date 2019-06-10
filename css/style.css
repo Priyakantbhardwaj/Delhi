@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Gentium|Roboto");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body 
+{
+	font-family: 'Gentium', serif;
+	font-size: 18px;
+	margin: 0px;
+}
+h1,h2,h3
+{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+a
+{
+	text-decoration: none;
+}
+
+.bar-menu {
+	background-color: white;
+	padding: 15px;
+	text-align: center;
+}
+.bar-menu a {
+	padding: 15px 30px;
+	color: rgb(130, 130, 130);
+}
+.bar-menu a:hover {
+	background-color: rgb(130, 130, 130);
+	color: white;
+}
